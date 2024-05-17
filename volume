@@ -1,0 +1,44 @@
+def volume_unit_cubes(length, width, height):
+    return length * width * height
+
+# Example usage:
+volume = volume_unit_cubes(5, 3, 2)
+print("The volume is:", volume)
+
+# Define the value of pi
+pi = 3.1415926535897931
+
+# Define the radius of the sphere
+r = 6.0
+
+# Calculate the volume of the sphere
+volume = (4/3) * pi * (r ** 3)
+
+# Print the result
+print("The volume of the sphere is:", volume)
+
+# Define the value of pi
+pi = 3.1415926535897931
+
+# Define the radius and height of the cylinder
+radius = 4.0
+height = 10.0
+
+# Calculate the volume of the cylinder
+volume = pi * (radius ** 2) * height
+
+# Print the result
+print("The volume of the cylinder is:", volume)
+
+# Define the base and height of the parallelogram
+base = 6.0
+height = 8.0
+
+# Calculate the area of the parallelogram
+area = base * height
+
+# Calculate the volume of the parallelogram
+volume = area * 10.0  # Assuming the parallelogram has a height of 10 units
+
+# Print the result
+print("The volume of the parallelogram is:", volume)
